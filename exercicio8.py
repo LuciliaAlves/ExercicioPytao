@@ -1,0 +1,10 @@
+nome = input("Nome: ")
+produto = input("Produto: ")
+quantidade = int(input("Quantidade: "))
+preco = float(input("Preço: "))
+total = quantidade * preco
+print(f"Compra realizada por {nome}")
+print(f"Produto: {produto}")
+print(f"Quantidade: {quantidade}")
+print(f"Valor unitário: R$ {preco:.2f}")
+print(f"Total: R$ {total:.2f}")
